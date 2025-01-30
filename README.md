@@ -1,1 +1,42 @@
 # Project-Statistical-Models
+
+Structure of the EDA file:
+
+-   Start: library
+-   Project Steps
+-   Loading converting and cleaning of the data
+    -   Load
+    -   Clean
+    -   Convert
+    -   Divide dataset into training and testing
+-   Exploring the dataset
+    -   Descripting Statistic
+        -   Describe
+        -   Plot
+        -   Histogram
+        -   Boxplot
+        -   Outliers
+        -   Correlation
+    -   Frequency Analysis
+        -   Power Spectral Density (PSD) based on Periodgram
+-   Describing the time series patterns
+    -   Stationarity
+        - check mean and standard deviation (Rolling statistics)
+        -   ADF and KPSS
+        -   ACF and PACF
+    -   Decomposition
+-   Forecasting
+    -   Simple forecasting approaches
+        -   Mean method
+        -   Naive method
+        -   Seasonal Naive method
+        -   Drift method
+    -   Exponential Smoothing Additive Single
+    -   Exponential Smoothing Additive Double
+    -   Exponential Smoothing Additive 
+    -   Exponential Smoothing Additive Damped Trend
+    -   Manual Sarima
+    -   Auto Sarima
+    -   Sarimax
+    -   Display Accuracy
+-   Note
